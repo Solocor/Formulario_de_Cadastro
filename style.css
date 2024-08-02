@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .box {
@@ -16,7 +17,7 @@ body {
     border-radius: 20px;
     box-shadow: 3px 3px 6px rgb(100, 100, 100);
     text-align: center;
-    padding: 20px;
+    padding: 20px 30px 20px 30px;
     display: flex;
     flex-direction: column;
 }
@@ -61,5 +62,32 @@ label {
 }
 
 strong {
+    color: rgb(113, 189, 0);
+}
+
+.cadastro-login {
+    width: 332.72px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#butao-c {
+    border: none;
+    border-radius: 20px 0 0 20px;
+    width: 166.36px;
+    padding: 20px 0 20px 0;
+    background-color: rgb(113, 189, 0);
+    color: white;
+}
+
+#butao-l {
+    border: none;
+    border-radius: 0 20px 20px 0;
+    width: 166.36px;
+    padding: 20px 0 20px 0;
+    background-color: white;
     color: rgb(113, 189, 0);
 }
