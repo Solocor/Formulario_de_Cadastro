@@ -17,7 +17,7 @@ body {
     border-radius: 20px;
     box-shadow: 3px 3px 6px rgb(100, 100, 100);
     text-align: center;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
 }
@@ -38,6 +38,7 @@ body {
     padding: 8px;
     background-color: rgb(113, 189, 0);
     color: white;
+    cursor: pointer;
 }
 
 #butao:active {
@@ -47,6 +48,7 @@ body {
     padding: 8px;
     background-color: rgb(89, 148, 0);
     color: white;
+    cursor: pointer;
 }
 
 label {
@@ -76,9 +78,9 @@ strong {
 
 #butao-c {
     border: none;
-    border-radius: 20px 0 0 20px;
+    border-radius: 19px 0 0 19px;
     width: 166.36px;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     background-color: rgb(113, 189, 0);
     color: white;
 }
@@ -87,7 +89,7 @@ strong {
     border: none;
     border-radius: 0 20px 20px 0;
     width: 166.36px;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     background-color: white;
     color: rgb(113, 189, 0);
 }
